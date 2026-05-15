@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "charset": "UTF-8",
+    "title": "Proxy Site"
+  },
+  "style": {
+    "html_body": {
+      "margin": 0,
+      "width": "100%",
+      "height": "100%",
+      "overflow": "hidden",
+      "background": "black"
+    },
+    "iframe": {
+      "width": "100%",
+      "height": "100vh",
+      "border": "none"
+    }
+  },
+  "iframe": {
+    "id": "siteFrame",
+    "src": "https://wingdemon.net",
+    "allowfullscreen": true
+  },
+  "script": {
+    "focusOnClick": true,
+    "fullscreenShortcut": "F11",
+    "focusIframeOnKeydown": true
+  }
+}
